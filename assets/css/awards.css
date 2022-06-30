@@ -1,0 +1,17 @@
+.awards-section {
+    background-image: url(../images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.awards-time {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
+@media screen and (max-width: 768px){
+    .awards-image {
+        display: none;
+    }
+    
+}

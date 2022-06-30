@@ -1,0 +1,68 @@
+.activity-section {
+    background-image: url('../images/bg4.png');
+    background-size: 100%;
+}
+.activity-section .section-heading {
+    padding-top: 120px;
+}
+.activity-inner {
+    padding: 0 20px;
+}
+.activity-card {
+    border-radius: 12px;
+    overflow: hidden;
+}
+.activity-card.dashed-border {
+    background-color: #F0F5F3;
+}
+.activity-image{
+    overflow: hidden;
+}
+.activity-content{
+    padding: 16px;
+}
+.activity-content:hover {
+    background-color: var(--white-color);
+}
+.activity-content p{
+    margin-top: 16px;
+    font-size: 1.4rem;
+    line-height: 21px;
+    color: var(--black-color)
+}
+.activity-content h3{
+    font-size: 1.6rem;
+    line-height: 24px;
+    color: var(--black-color);
+}
+p.activity-title {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0!important;
+}
+.activity-title i{
+    font-size: 1rem;
+    margin-right: 5px;
+}
+@media screen and (max-width: 992px) {
+    .activity-section .section-heading {
+        padding-top: 80px;
+    }
+}
+    
+@media screen and (max-width: 768px) {
+    .activity-section {
+        background-size: 100%;
+    }
+    .activity-section .section-heading {
+        padding-top: 40px;
+    }
+    .activity-card {
+        background-color: #F0F5F3;
+    }
+    .activity-inner {
+        padding: 0;
+    }
+}
+    

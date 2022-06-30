@@ -1,0 +1,94 @@
+.contact-section {
+    background-image: url('../images/bg6.png');
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contact-info {
+    position: relative;
+}
+.info-detail {
+    padding: 30px 0;
+}
+.info-detail h3 {
+    text-transform: uppercase;
+}
+.info-detail:last-child {
+    padding-bottom: 50px;
+}
+.info-image {
+    display: flex;
+}
+.info-image .logo1 {
+    margin-right: 16px;
+}
+.contact-section .form-group {
+    border-bottom: 2px solid transparent;
+}
+.form-group:focus-within {
+    border-bottom: 2px solid var(--primary-color);
+}
+.info-detail p {
+    display: flex;
+    align-items: center;
+}
+.info-detail .icon {
+    min-width: 30px;
+    display: inline-block;
+    font-size: 1.8rem;
+}
+textarea {
+    resize: none;
+}
+.contact-section button {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 12px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    width: 184px;
+    margin: 0 auto;
+}
+.contact-section button:hover {
+    background-color: var(--primary-hover);
+}
+.contact-bg{
+    position: absolute;
+    right: 0;
+    top: calc(100% - 60px);
+}
+.contact-social{
+    margin-top: 60px;
+    display: flex;
+}
+.social-item{
+    width: 40px;
+    height: 40px;
+}
+.social-item:hover{
+    opacity: 0.7;
+}
+.social-item ~ .social-item{
+    margin-left: 16px;
+}
+@media screen and (max-width: 992px) {
+    .info-detail {
+        padding: 20px 0;
+    }
+    .contact-info {
+        padding: 40px 10px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .contact-left {
+        order: 2;
+    }
+    .contact-right {
+        order: 1;
+    }
+    .contact-bg img {
+        max-width: 250px;
+    }
+    
+}

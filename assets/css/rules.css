@@ -1,0 +1,44 @@
+.rules-section {
+    background-image: url(../images/bg_rules.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rules-inner {
+    padding: 16px;
+}
+.rules-icon {
+    width: 80px;
+    height: 80px;
+    margin-right: 16px;
+}
+.rules-item {
+    display: flex;
+}
+.rules-content {
+    flex: 1;
+}
+.rules-content h3 {
+    font-size: 2.4rem;
+    line-height: 31px;
+}
+.rules-content p {
+    font-size: 1.4rem;
+    line-height: 22.5px;
+}
+
+@media screen and (max-width: 768px) {
+    .rules-item {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .rules-item {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .rules-content {
+        text-align: center;
+    }
+}
+    
